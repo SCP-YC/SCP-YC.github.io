@@ -52,6 +52,7 @@ header h2 {
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
+    cursor: pointer;
 }
 .popup-item {
     position: absolute;
