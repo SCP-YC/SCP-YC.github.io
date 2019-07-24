@@ -15,14 +15,14 @@ header {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position-x: 20%;
-    background-position-y: 10px;
+    background-position-y: 20%;
     background-size: 5%;
     height: 140px;
     padding-top: 2%;
     padding-bottom: 1%;
 }
 header #title {
-    color: white;
+    color: #eee;
     font-family: "Bauhaus LT Demi", Simhei;
     font-size: 44px;
     text-shadow: 3px 3px 5px black;
