@@ -1,17 +1,22 @@
+/* 字体设置 */
 @font-face {
     font-family: "Bauhaus LT Demi";
     src: url("../fonts/BauhausLTDemi.woff") format("woff");
 }
+
+/* 背景设置 */
 body {
     background-image: url("../images/body_bg.png");
     background-repeat: repeat-x;
 }
+
+/* 顶栏设置 */
 header {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
-    background-position-x: 100px;
+    background-position-x: 20%;
     background-position-y: 10px;
-    background-size: 90px;
+    background-size: 5%;
     height: 140px;
     padding-top: 2%;
     padding-bottom: 1%;
@@ -21,7 +26,7 @@ header #title {
     font-family: "Bauhaus LT Demi", Simhei;
     font-size: 44px;
     text-shadow: 3px 3px 5px black;
-    margin-left: 200px;
+    margin-left: 25%;
 }
 header a {
     text-decoration: none;
@@ -33,16 +38,19 @@ header h2 {
     color: #f0f0c0;
     font-family: "Trebuchet MS";
     font-size: 14px;
-    margin-left: 200px;
+    margin-left: 25%;
     margin-top: -20px;
 }
+
+/* 弹出式菜单设置 */
 #popup-menu {
     margin-top: 32px;
-    margin-right: 400px;
+    margin-right: 25%;
 }
 .popup-group {
     position: relative;
     float: right;
+    font-size: 90%;
 }
 .popup-button {
     background-color: transparent;
@@ -65,6 +73,8 @@ header h2 {
 .popup-item a {
     display: block;
     border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 .popup-group:hover .popup-button {
     background-color: #eee;
@@ -88,4 +98,63 @@ header h2 {
 }
 .popup-group:hover .popup-item a:hover {
     background-color: white;
+}
+
+/* sidebar设置 */
+#sidebar {
+    float: left;
+    margin-left: 20%;
+}
+.side-block {
+    background: white;
+    border: 1px solid #660000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(102, 0, 0, 0.5);
+    margin-bottom: 15px;
+    width: 220px;
+}
+.side-block .side-head {
+    color: #600;
+    border-bottom: 1px solid #600;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.side-block .side-item {
+    margin: 2px 0;
+}
+.side-block a {
+    color: #b01;
+    font-size: 8pt;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.side-block a:hover {
+    text-decoration: underline;
+}
+.side-block a:visited {
+    color: #824;
+}
+.subtext {
+    color: #666;
+    font-size: 8pt;
+}
+#begin-news {
+    background-color: #f0fff6;
+}
+
+/* main-content设置 */
+#main-content {
+    margin-left: 40%;
+    margin-right: 25%;
+}
+hr {
+    margin: 1em 2em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
