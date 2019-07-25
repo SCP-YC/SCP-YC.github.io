@@ -5,7 +5,7 @@ function initHeader() {
     header.outerHTML = '' +
     '    <header>' +
     '        <h1>' +
-    '            <a href="index.html">' +
+    '            <a href="../index.html">' +
     '                <span id="title">SCP基金会 YC分部</span>' +
     '            </a>' +
     '        </h1>' +
