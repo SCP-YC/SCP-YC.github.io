@@ -158,3 +158,45 @@ hr {
     margin-inline-start: auto;
     margin-inline-end: auto;
 }
+
+/* wiki文章设置 */
+#main-content #page-title {
+    border-bottom: 1px solid #bbb;
+    font-family: verdana, arial;
+    font-size: 1.6em;
+    color: #901;
+}
+#main-content #page-content {
+    background-color: #fcfdfb;
+    border: 1px solid #888880;
+    border-radius: 10px;
+    margin: 2% 0 3%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 10px rgba(255,255,255,0.2), 
+        inset 0 10px 20px rgba(255,255,255,0.25), 
+        inset 0 -15px 30px rgba(0,0,0,0.1);
+    padding: 0 3%;
+}
+#main-content #page-content h1 {
+    color: #901;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+}
+.content-panel ul {
+    list-style: square;
+}
+.content-panel ul li {
+    font-size: 0.8em;
+}
+.content-panel ul li a {
+    color: #b01;
+    text-decoration: none;
+}
+.content-panel ul li a:hover {
+    text-decoration: underline;
+}
+.content-panel ul li a:visited {
+    color: #824;
+}
