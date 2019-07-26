@@ -1,14 +1,15 @@
 var page_num = 2;
 
-function addZero(num) {
+function addZero(num, addStr = '', appendStr = '') {
     if (num < 1 || num > page_num) {
+        if (addStr === 'scp-yc-') return '#';
         return '无';
     }
     let str = num.toString();
     while (str.length < 3) {
         str = '0' + str;
     }
-    return str;
+    return addStr + str + appendStr;
 }
 
 function initWikiWalk() {
@@ -19,6 +20,6 @@ function initWikiWalk() {
     mainContent.appendChild(walk);
     walk.outerHTML = '' +
     '<div class="wiki-walk">' +
-    '   « <a href="scp-yc-' + addZero(page-1) + '.html">SCP-' + addZero(page-1) + '</a> | SCP-' + addZero(page) + ' | <a href="scp-yc-' + addZero(page+1) + '.html">SCP-' + addZero(page+1) + '</a> »' +
+    '   « <a href="' + addZero(page-1, 'scp-yc-', '.html') + '">' + addZero(page-1, 'SCP-YC-') + '</a> | SCP-YC-' + addZero(page) + ' | <a href="' + addZero(page+1, 'scp-yc-', '.html') + '">' + addZero(page+1, 'SCP-YC-') + '</a> »' +
     '</div>';
 }
