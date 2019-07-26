@@ -15,6 +15,7 @@ function addZero(num, addStr = '', appendStr = '') {
 function initWikiWalk() {
     let title = document.head.getElementsByTagName('title')[0];
     let page = parseInt(title.innerHTML.slice(7, 10));
+    if (isNaN(page)) return;
     let mainContent = document.getElementById('main-content');
     let walk = document.createElement('div');
     mainContent.appendChild(walk);
