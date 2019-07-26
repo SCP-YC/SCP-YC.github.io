@@ -58,8 +58,8 @@ header h2 {
     height: 21px;
     overflow: hidden;
     text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
     cursor: pointer;
 }
 .popup-item {
@@ -104,6 +104,7 @@ header h2 {
 #sidebar {
     float: left;
     margin-left: 20%;
+    width: 12.5%;
 }
 .side-block {
     background: white;
@@ -112,7 +113,7 @@ header h2 {
     padding: 10px;
     box-shadow: 0 2px 6px rgba(102, 0, 0, 0.5);
     margin-bottom: 15px;
-    width: 220px;
+    width: 100%;
 }
 .side-block .side-head {
     color: #600;
@@ -150,8 +151,10 @@ header h2 {
 #main-content {
     margin-left: 40%;
     margin-right: 25%;
+    margin-bottom: 15%;
 }
 hr {
+    color: #ddd;
     margin: 1em 2em;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
@@ -166,7 +169,7 @@ hr {
     font-size: 1.6em;
     color: #901;
 }
-#main-content #page-content h1 {
+#main-content #page-content .content-panel h1 {
     color: #901;
     font-size: 1.5em;
     font-weight: bold;
@@ -183,6 +186,16 @@ hr {
     background-color: #fcfdfb;
     margin: 2% 0 3%;
     padding: 0 3%;
+}
+.content-panel a {
+    color: #b01;
+    text-decoration: none;
+}
+.content-panel a:hover {
+    text-decoration: underline;
+}
+.content-panel a:visited {
+    color: #824;
 }
 .content-panel ul {
     list-style: square;
@@ -207,4 +220,39 @@ blockquote {
 }
 #page-content {
     font-size: 0.8em;
+}
+#page-content > h1 {
+    color: #901;
+    font-size: 3.8em;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    margin: 0 0 0.6em;
+}
+#page-content > h2 {
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    margin: 0.5em 0 0.4em;
+}
+#page-content p {
+    color: #333;
+}
+
+/* wiki-walk设置 */
+.wiki-walk {
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bold;
+    font-family: verdana, arial;
+}
+a {
+    color: #b01;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #824;
 }
