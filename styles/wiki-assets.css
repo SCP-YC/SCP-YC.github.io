@@ -93,9 +93,6 @@ header h2 {
 .popup-group:hover .popup-item a {
     color: #a01;
 }
-.popup-group:hover .popup-item a:hover {
-    text-decoration: none;
-}
 .popup-group:hover .popup-button:hover {
     background-color: white;
 }
@@ -249,13 +246,13 @@ blockquote {
     font-weight: bold;
     font-family: verdana, arial;
 }
-a {
+#main-content a {
     color: #b01;
     text-decoration: none;
 }
-a:hover {
+#main-content a:hover {
     text-decoration: underline;
 }
-a:visited {
+#main-content a:visited {
     color: #824;
 }
