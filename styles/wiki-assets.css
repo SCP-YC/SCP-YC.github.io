@@ -93,6 +93,9 @@ header h2 {
 .popup-group:hover .popup-item a {
     color: #a01;
 }
+.popup-group:hover .popup-item a:hover {
+    text-decoration: none;
+}
 .popup-group:hover .popup-button:hover {
     background-color: white;
 }
