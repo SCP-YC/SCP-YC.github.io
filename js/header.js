@@ -15,12 +15,6 @@ function initHeader() {
     '                <span class="popup-button">背景资料</span>' +
     '            </div>' +
     '            <div class="popup-group">' +
-    '                <span class="popup-button">SCP国际</span>' +
-    '            </div>' +
-    '            <div class="popup-group">' +
-    '                <span class="popup-button">SCP-CN系列</span>' +
-    '            </div>' +
-    '            <div class="popup-group">' +
     '                <span class="popup-button">故事</span>' +
     '            </div>' +
     '            <div class="popup-group">' +

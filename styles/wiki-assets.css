@@ -342,9 +342,15 @@ header #title {
     font-size: 100%;
 }
 #main-content {
-    position: fixed;
+    position: absolute;
     left: 4%;
     width: 92%;
     margin-left: 0;
+}
+#popup-menu {
+    z-index: 2;
+}
+#main-content {
+    z-index: -1;
 }
 }
