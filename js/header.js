@@ -35,5 +35,8 @@ function initHeader() {
     '                </div>' +
     '            </div>' +
     '        </nav>' +
+    '        <div id="open-menu">' +
+    '            <a href="#sidebar">≡</a>' +
+    '        </div>' +
     '    </header>';
 }

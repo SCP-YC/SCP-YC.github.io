@@ -34,5 +34,6 @@ function initSidebar() {
     '            <div class="side-head">相关网站</div>' +
     '            <div class="side-item"><img src="../icons/default.png"><a href="#">SCP基金会YC讨论论坛</a></div>' +
     '        </aside>' +
+    '        <a id="close-menu" href="#"></a>' +
     '    </div>';
 }

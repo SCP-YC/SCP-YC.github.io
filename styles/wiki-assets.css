@@ -271,3 +271,80 @@ blockquote {
 #content-toc * {
     display: block;
 }
+
+/* 移动端适配 */
+/* Mobile View */
+#open-menu {
+    display: none;
+}
+@media (max-width: 769px) {
+#open-menu {
+    display: block;
+}
+#close-menu {
+    display: none;
+}
+#open-menu a {
+    background-color: #fff;
+    color: #888;
+    text-decoration: none;
+    font-size: 30px;
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888;
+    border-radius: 3em;
+    font-family: 'Nanum Gothic', san-serif;
+    font-weight: 700;
+}
+#sidebar {
+    background-color: #b88686;
+    width: 60%;
+    min-height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    left: -85%;
+    top: 0;
+    padding-left: 3%;
+    padding-top: 3%;
+    transition: 0.5s;
+    z-index: 2;
+}
+#sidebar .side-block {
+    width: 85%;
+}
+#sidebar:target {
+    left: -20%;
+}
+#close-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#sidebar:target #close-menu {
+    display: block;
+    z-index: -1;
+}
+header {
+    background-size: 15%;
+    background-position-x: 10%;
+    background-position-y: 5%;
+    margin-top: 11%;
+}
+header #title {
+    font-size: 100%;
+}
+#main-content {
+    position: fixed;
+    left: 4%;
+    width: 92%;
+    margin-left: 0;
+}
+}
