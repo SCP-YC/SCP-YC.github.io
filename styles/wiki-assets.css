@@ -256,3 +256,18 @@ blockquote {
 #main-content a:visited {
     color: #824;
 }
+
+/* content-toc设置 */
+#content-toc {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,0.15);
+    float: right;
+    padding: 10px 15px;
+}
+#content-toc * {
+    display: block;
+}
