@@ -44,8 +44,9 @@ header h2 {
 
 /* 弹出式菜单设置 */
 #popup-menu {
-    margin-top: 32px;
-    margin-right: 25%;
+    position: absolute;
+    top: 140px;
+    right: 25%;
 }
 .popup-group {
     position: relative;
@@ -306,7 +307,7 @@ blockquote {
     width: 60%;
     min-height: 100%;
     overflow-y: auto;
-    position: fixed;
+    position: absolute;
     left: -85%;
     top: 0;
     padding-left: 3%;
