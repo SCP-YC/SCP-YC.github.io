@@ -239,6 +239,53 @@ blockquote {
 #page-content p {
     color: #333;
 }
+#page-content ul {
+    list-style: square;
+}
+#page-content sup {
+    color: #b01;
+    font-family: verdana, arial;
+}
+#page-content sup:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* 折叠内容设置 */
+.folder .check {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+.fold-info,
+.unfold-info {
+    color: #b01;
+	cursor: pointer;
+}
+.fold-info:hover,
+.unfold-info:hover {
+    text-decoration: underline;
+}
+.folder .fold-info {
+    display: inline-block;
+}
+.unfold-info {
+    display: none;
+}
+.folder .check:checked ~ .fold-info {
+    display: none;
+}
+.folder .check:checked ~ .unfold-info {
+    display: inline-block;
+}
+.folder .fold-element {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.folder .check:checked ~ .fold-element {
+    height: auto;
+    opacity: 1;
+}
 
 /* wiki-walk设置 */
 .wiki-walk {
