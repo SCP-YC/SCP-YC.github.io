@@ -250,6 +250,40 @@ blockquote {
     text-decoration: underline;
     cursor: pointer;
 }
+#page-content ol {
+    list-style-type: none;
+    counter-reset: li;
+}
+#page-content ol li {
+    counter-increment: li;
+}
+#page-content ol li::before {
+    content: counter(li);
+    color: #b01;
+    display: inline-block;
+    width: 1.6em;
+    margin-left: -2.0em;
+    margin-right: 0.4em;
+    text-align: right;
+}
+#page-content .sup-tip {
+    display: inline-block;
+    position: relative;
+}
+#page-content .sup-tip .tip {
+    visibility: hidden;
+    width: 600px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -300px;
+}
+#page-content .sup-tip:hover .tip {
+    visibility: visible;
+}
 /* 折叠内容设置 */
 .folder .check {
     position: absolute;
