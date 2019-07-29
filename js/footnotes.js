@@ -1,5 +1,6 @@
 function initFootNotes() {
     let sups = document.getElementsByTagName('sup');
+    if (sups.length == 0) return;
     let lis = document.getElementById('footer-notes').getElementsByTagName('li');
     for (let i = 0; i < sups.length; i ++) {
         sups[i].outerHTML = '' +
