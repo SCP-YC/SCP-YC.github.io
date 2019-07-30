@@ -52,6 +52,7 @@ header h2 {
     position: relative;
     float: right;
     font-size: 90%;
+    font-family: verdana, arial;
 }
 .popup-button {
     background-color: transparent;

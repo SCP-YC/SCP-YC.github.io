@@ -21,7 +21,7 @@ function initSidebar() {
     '' +
     '            <div class="side-head">网站</div>' +
     '            <div class="side-item"><img src="../icons/default.png"><a href="#">最近新增的页面</a></div>' +
-    '            <div class="side-item"><img src="../icons/main.png"><a href="#">随机SCP</a> | <a href="#">故事</a></div>' +
+    '            <div class="side-item"><img src="../icons/main.png"><a href="javascript: randomSCP();">随机SCP</a> | <a href="#">故事</a></div>' +
     '            <div class="side-item"><img src="../icons/default.png"><a href="#">最近的更新</a> | <a href="#">修改的页面</a></div>' +
     '            <div class="side-item"><img src="../icons/default.png"><a href="#">最高评分的页面</a></div>' +
     '            <div class="side-item"><img src="../icons/default.png"><a href="#">最低评分的页面</a></div>' +
