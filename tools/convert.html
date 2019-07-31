@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCP Wiki 转 HTML</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/wiki-assets.css">
+    <script src="../js/header.js" async></script>
+    <script src="../js/sidebar.js" async></script>
+    <script src="../js/random-page.js" async></script>
+    <script src="../js/convert.js"></script>
+    <script src="../js/window-onload.js" async></script>
+    <script>
+        function randomSCP() {
+            window.location.href = '../scp-yc/scp-yc-' + addZero(Math.ceil(Math.random() * page_num)).toString() + '.html';
+        }
+    </script>
+</head>
+<body>
+    <div id="main-content">
+        <textarea id="input" cols="80" rows="10"></textarea>
+        <button onclick="startConvert()">转换</button>
+        <textarea id="output" cols="80" rows="10"></textarea>
+    </div>
+</body>
+</html>
