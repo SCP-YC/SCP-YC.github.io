@@ -171,6 +171,9 @@ hr {
     font-size: 1.6em;
     color: #901;
 }
+#main-content #page-content {
+    font-family: verdana, arial;
+}
 #main-content #page-content .content-panel h1 {
     color: #901;
     font-size: 1.5em;
