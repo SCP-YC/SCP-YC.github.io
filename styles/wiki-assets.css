@@ -132,6 +132,7 @@ header h2 {
     color: #b01;
     font-size: 8pt;
     font-weight: bold;
+    font-family: verdana, arial;
     text-decoration: none;
     margin-left: 2px;
 }
