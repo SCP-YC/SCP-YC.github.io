@@ -1,4 +1,4 @@
-var page_num = 6;
+var page_num = 7;
 
 function addZero(num, addStr = '', appendStr = '') {
     if (num < 1 || num > page_num) {
