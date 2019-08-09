@@ -17,6 +17,7 @@ function convert(str) {
     text = text.replace(RegExp("\\[(.+?)\\]\\((.+?)\\)", "g"), "<a href=\"$2\">$1</a>");
     text = text.replace(RegExp("\\n(?!<blockquote>|</blockquote>|<div|</div>)(.+)\\n", "g"), "\n<p>$1</p>\n");
     text = text.replace(RegExp("<p>(.+?：)(.+?)</p>", "g"), "<p><b>$1</b>$2</p>");
+    text = text.replace(/: /g, "：");
     text = text.replace(/\n+/g, "\n");
     return text;
 }
