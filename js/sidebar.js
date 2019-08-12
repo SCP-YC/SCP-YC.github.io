@@ -14,10 +14,10 @@ function initSidebar() {
     '            <div class="side-item"><img src="../icons/help.png"><a href="#">常见问题解答</a></div>' +
     '        </aside>' +
     '        <aside id="index" class="side-block">' +
-    '            <div class="side-item"><img src="../icons/home.png"><a href="index.html">主页</a></div>' +
+    '            <div class="side-item"><img src="../icons/home.png"><a href="../index.html">主页</a></div>' +
     '' +
     '            <div class="side-head">SCP资料库</div>' +
-    '            <div class="side-item"><img src="../icons/series.png"><a href="series-1.html">SCP-YC系列 Ⅰ</a><span class="subtext">(001 - 999)</span></div>' +
+    '            <div class="side-item"><img src="../icons/series.png"><a href="../scp-yc/series-1.html">SCP-YC系列 Ⅰ</a><span class="subtext">(001 - 999)</span></div>' +
     '' +
     '            <div class="side-head">网站</div>' +
     '            <div class="side-item"><img src="../icons/default.png"><a href="#">最近新增的页面</a></div>' +

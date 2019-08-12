@@ -149,6 +149,14 @@ header h2 {
 #begin-news {
     background-color: #f0fff6;
 }
+#language .side-item::before {
+    content: "■";
+    font-size: 7px;
+    color: #b01;
+    position: relative;
+    margin: 0 7px 0 5px;
+    bottom: 3px;
+}
 
 /* main-content设置 */
 #main-content {
